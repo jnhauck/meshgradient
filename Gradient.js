@@ -519,4 +519,5 @@ class Gradient {
 * Gradient.updateFrequency(freq)
 */
 
-export { Gradient }
+const gradient = new Gradient()
+gradient.initGradient('#gradient-canvas');
